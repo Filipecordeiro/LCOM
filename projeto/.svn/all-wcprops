@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repos/lcom1415-t1g05/!svn/ver/86/projeto
+END
+jogo.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/lcom1415-t1g05/!svn/ver/86/projeto/jogo.c
+END
+video_gr.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/lcom1415-t1g05/!svn/ver/85/projeto/video_gr.c
+END
+kbc.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/kbc.c
+END
+read_xpm.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/read_xpm.c
+END
+pixmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/pixmap.h
+END
+jogo.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/lcom1415-t1g05/!svn/ver/86/projeto/jogo.h
+END
+video_gr.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/lcom1415-t1g05/!svn/ver/85/projeto/video_gr.h
+END
+lmlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/lmlib.h
+END
+kbc.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/kbc.h
+END
+read_xpm.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/read_xpm.h
+END
+sprite.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/sprite.c
+END
+i8042.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/i8042.h
+END
+sprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/sprite.h
+END
+vbe.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/vbe.c
+END
+i8254.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/lcom1415-t1g05/!svn/ver/84/projeto/i8254.h
+END
+vbe.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/lcom1415-t1g05/!svn/ver/80/projeto/vbe.h
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/lcom1415-t1g05/!svn/ver/85/projeto/log.c
+END
+image.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/lcom1415-t1g05/!svn/ver/86/projeto/image.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/lcom1415-t1g05/!svn/ver/82/projeto/main.c
+END
+jogador.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/lcom1415-t1g05/!svn/ver/85/projeto/jogador.c
+END
+plataforma.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/lcom1415-t1g05/!svn/ver/85/projeto/plataforma.c
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/lcom1415-t1g05/!svn/ver/82/projeto/log.h
+END
+image.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/lcom1415-t1g05/!svn/ver/86/projeto/image.h
+END
+jogador.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/lcom1415-t1g05/!svn/ver/84/projeto/jogador.h
+END
+plataforma.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/lcom1415-t1g05/!svn/ver/85/projeto/plataforma.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/lcom1415-t1g05/!svn/ver/86/projeto/Makefile
+END
+.depend
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/lcom1415-t1g05/!svn/ver/86/projeto/.depend
+END
