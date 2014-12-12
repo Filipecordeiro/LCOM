@@ -223,25 +223,29 @@ int draw(Jogo* jogo){
 #ifdef DEBUG
   Log("\tDrawing platforms\n");
 #endif
-  for(i=0;i<NPLATFORMS;i++){
+  /*for(i=0;i<NPLATFORMS;i++){
     vg_drawRectangle(triple_buffer
         , jogo->plataformas[i].x, jogo->plataformas[i].y, jogo->plataformas[i].h, jogo->plataformas[i].w, jogo->plataformas[i].color);
-  }
+  }*/
 #ifdef DEBUG
   Log("\tDrawing player\n");
 #endif
-  vg_drawRectangle(triple_buffer, jogo->jogador->x, jogo->jogador->y, jogo->jogador->h, jogo->jogador->w, rgb(255, 255, 255));
+  //vg_drawRectangle(triple_buffer, jogo->jogador->x, jogo->jogador->y, jogo->jogador->h, jogo->jogador->w, rgb(255, 255, 255));
 
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   Bitmap* bmp;
-  bmp = loadBitmap("/home/lcom/lab5/doodlejump2.bmp");
-  drawBitmap (bmp, triple_buffer, jogo->jogador->x, jogo->jogador->y, jogo->jogador->h, jogo->jogador->w);
+  bmp = loadBitmap("/home/lcom/projeto/doodlejump2.bmp");
+  for(i=0;i<NPLATFORMS;i++){
+	  drawBitmap(bmp, triple_buffer,
+			  jogo->plataformas[i].x, jogo->plataformas[i].y, jogo->plataformas[i].w, jogo->plataformas[i].h);
+  }
+  drawBitmap(bmp, triple_buffer, jogo->jogador->x, jogo->jogador->y, jogo->jogador->w, jogo->jogador->h);
   deleteBitmap(bmp);
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   // Copy double buffer to VGA
-  memcpy(ptr_start, double_buffer, h_res*v_res);
-  memcpy(double_buffer, triple_buffer, h_res*v_res);
+  memcpy(ptr_start, double_buffer, h_res*v_res*bits_per_pixel/8);
+  memcpy(double_buffer, triple_buffer, h_res*v_res*bits_per_pixel/8);
 
   return 0;
 }
